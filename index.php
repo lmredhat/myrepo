@@ -3,10 +3,6 @@
 echo "This is a simple php application";
 echo "<br>Welcome to lilly.  Grant is the worst";
 
-$x = 0; 
+sleep(2);
 
-while($x <= 20) {
-    echo "The number is: $x";
-    $x++;
-    sleep(2);
-}
+echo "<br>Welcome to TONILANDIA.";
