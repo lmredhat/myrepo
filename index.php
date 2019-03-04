@@ -6,7 +6,7 @@ echo "<br>Welcome to lilly.  Grant is the worst";
 $x = 0; 
 
 while($x <= 5) {
-    echo "<br>The number is: $x <br>";
+    echo "The number is: $x";
     $x++;
     sleep(2);
 
