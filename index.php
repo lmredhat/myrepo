@@ -9,3 +9,6 @@ while($x <= 5) {
     echo "<br>The number is: $x <br>";
     $x++;
     sleep(2);
+
+$rs->close();
+$connection->close();
