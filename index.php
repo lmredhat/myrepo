@@ -10,6 +10,3 @@ while($x <= 20) {
     $x++;
     sleep(2);
 }
-
-$rs->close();
-$connection->close();
