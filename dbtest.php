@@ -16,6 +16,4 @@ $rs = $connection->query($query);
 while ($row = $rs->fetch_array(MYSQLI_ASSOC)) {
     echo $row['user_id'] . " " . $row['username'] . "\n";
 }
-$rs->close();
-$connection->close();
 ?>
